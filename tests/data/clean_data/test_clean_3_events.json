@@ -1,0 +1,59 @@
+{
+  "total_count": 3,
+  "results": [
+    {
+      "uid": "5791113",
+      "title_fr": "Ensemble 2E2M - JA!M",
+      "description_full_fr": "Dans le cadre d'un partenariat avec le CRR de Paris - Ida Rubinstein. Ce projet est organisé dans le cadre du partenariat entre 2e2m et le CRR de Paris – Ida Rubinstein, avec les étudiant.e.s des départements Danse et Jazz. PROGRAMME JAM 1Improvisations / performances avec les étudiant.e.s des Départements Danse et Jazz Basile Chassaing - SPA(S)M • création mondiale2 danseuses, clarinette, trompette et électronique JAM 2Improvisations / performances avec les étudiant.e.s des Départements Danse et Jazz _____ Alexandra Fribault et Polonie Blanchard, chorégraphie et danse Claire Voisin, clarinetteLaurent Bômont, trompetteEt les étudiant.e.s du CRR de Paris_____ Infos pratiques : 🗓 Lundi 11 et mardi 12 mai 2026 - 19h📌 CRR de Paris - Ida Rubinstein - 14 rue de Madrid, 75008 Paris🎫 Entrée libre dans la limites des places disponibles🔗 Infos : https://www.ensemble2e2m.fr/crr-de-paris-2/_____ Production 2e2mLe projet SPA[S]M est une coproduction 2e2m / Association SubTone avec l’aide de la Fondation Royaumont, de l’Ircam, du ministère de la Culture, du PSPBB, de Grame CNCM, du M!lieu et avec le soutien de la Maison de la Musique Contemporaine.La composition musicale est soutenue par ministère de la Culture (aide à l’écriture d’œuvres originales). Depuis mars 2023, le projet fait l’objet d’une résidence de recherche artistique de Basile Chassaing au sein de l’équipe de recherche ISMM / Interaction Son Musique Mouvement dirigée par Frédéric Bevillacqua. C’est dans ce cadre que la collaboration avec la doctorante Sarah Nabi est néée. Le projet a bénéficié d’une première résidence de recherche au plateau à l’Abbaye de Royaumont en novembre 2023 et est soutenu par le PSPBB (CulturePro). Il a fait l’objet d’une résidence au m![lieu] à Sault en juin 2025, puis au Grame CNCM de Lyon en octobre 2025.L'ensemble 2E2M est conventionné par la DRAC-IdF pour la période 2023-2024-2025",
+      "location_city": "Paris",
+      "location_name": "CRR de Paris - Auditorium Marcel Landowski",
+      "location_address": "14 rue de Madrid, 75008 Paris",
+      "location_coordinates": {
+        "lon": 2.320671,
+        "lat": 48.878667
+      },
+      "firstdate_begin": "2026-05-11T17:00:00+00:00",
+      "firstdate_end": "2026-05-11T18:30:00+00:00",
+      "keywords_fr": [
+        "musique",
+        "danse"
+      ]
+    },
+    {
+      "uid": "7294199",
+      "title_fr": "Petite Balade aux Enfers",
+      "description_full_fr": "Compagnie Point Fixe - Christian Hecq et Valérie Lesort. Orphée a perdu son épouse Eurydice le jour de leur mariage. Il va courageusement la chercher aux Enfers, affrontant monstres et furies. Un spectacle enchanteur pour initier les enfants aux voix lyriques.",
+      "location_city": "Paris",
+      "location_name": "Opéra Comique",
+      "location_address": "1 place Boieldieu, 75002 Paris",
+      "location_coordinates": {
+        "lon": 2.337624,
+        "lat": 48.87068
+      },
+      "firstdate_begin": "2026-02-05T09:30:00+00:00",
+      "firstdate_end": "2026-02-05T10:30:00+00:00",
+      "keywords_fr": [
+        "opéra",
+        "théâtre",
+        "marionnette"
+      ]
+    },
+    {
+      "uid": "45322621",
+      "title_fr": "Chroniques d'une Exploratrice",
+      "description_full_fr": "Compagnie A point - GOZLAN Alice. Au fil d’un seule en scène drôle et terrifiant où réalité, fiction et virtuel se superposent, Alice Gozlan raconte la découverte du versant caché d’Internet, où se déroule une grande guerre des récits. Du projet volontairement ingénu de créer un \"spectacle sur Internet\" au vertige d’une dérive au cœur des sphères complotistes, Chroniques d’une exploratrice campe le récit d’une expérience qui tourne mal. Ici, échapper à l’algorithme et sortir de sa zone de confort, c’est se confronter à la menace tangible d’une extrême-droite déployant des trésors d’imagination pour tordre le réel. Entre témoignage et (auto)fiction, Alice Gozlan mobilise les moyens du théâtre et les outils du numérique pour questionner cette exploration. Avec ce spectacle la compagnie A. poursuit sa réflexion sur les \"grands récits\" qui orientent nos sociétés et nos imaginaires, sur une scène pensée comme un laboratoire. En interrogeant le réel tel qu’il se dessine en ligne et en dévoilant les stratégies de l’extrême-droite pour imposer ses idées les plus nauséabondes, la pièce invite à la résistance.",
+      "location_city": "Paris",
+      "location_name": "Theâtre de Belleville",
+      "location_address": "16 passage Piver",
+      "location_coordinates": {
+        "lon": 2.374255,
+        "lat": 48.870914
+      },
+      "firstdate_begin": "2025-11-03T18:00:00+00:00",
+      "firstdate_end": "2025-11-03T19:00:00+00:00",
+      "keywords_fr": [
+        "#internet #fascisme #réseaux @autofiction"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+# docker-compose.yml
+version: '3.8'
+
+services:
+  rag-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: RAG-MISTRAL-API
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      # Pour le développement - synchronisation du code
+      - ./app:/app/app
+      # Pour persister les données si nécessaire
+      - ./data:/app/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://0.0.0.0:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
