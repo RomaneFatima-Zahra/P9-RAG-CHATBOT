@@ -6,12 +6,12 @@ on:
   pull_request:
     branches: [ "main" ]
 
-
 jobs:
   test-build-push:
     runs-on: ubuntu-latest
 
     steps:
+
       # 1. Récupération du repo
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -45,7 +45,9 @@ jobs:
 
       # 6. Lancer les tests
       - name: Run tests
-        run: poetry run python tests/test_upload.py
+        run: |
+          export PYTHONPATH=$PYTHONPATH:$GITHUB_WORKSPACE
+          poetry run python tests/test_upload.py
 
       # 7. Connexion à Docker Hub
       - name: Login to Docker Hub
@@ -66,7 +68,7 @@ jobs:
       - name: Save and upload Docker image
         if: github.event_name == 'push'
         run: docker save fatizab/rag-chatbot:latest -o image.tar
-      
+
       - name: Upload artifact
         if: github.event_name == 'push'
         uses: actions/upload-artifact@v4
