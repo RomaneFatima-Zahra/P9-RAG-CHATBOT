@@ -41,7 +41,7 @@ jobs:
       - name: Install dependencies
         run: |
           poetry config virtualenvs.in-project true
-          poetry install --no-interaction --no-root
+          poetry install --no-interaction
 
       # 6. Lancer les tests
       - name: Run tests
