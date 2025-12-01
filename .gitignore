@@ -25,3 +25,5 @@ htmlcov
 .conda
 .ipynb_checkpoints
 .env
+~$*.docx
+~$*.pptx
