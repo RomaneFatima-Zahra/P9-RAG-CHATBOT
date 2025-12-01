@@ -67,10 +67,6 @@ def test_chunk_and_embeddings():
 
     print("\n🎉 TEST GLOBAL RÉUSSI — Chunking + Embeddings + FAISS\n")
 
-    # 5. Save metadata 
-
-    metadata_test = Builder.save_metadata
-
 
 if __name__ == "__main__":
     test_chunk_and_embeddings()
